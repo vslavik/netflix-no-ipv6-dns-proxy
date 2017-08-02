@@ -7,7 +7,7 @@ OPTIONS = {
     # Address to bind to.  '::' will bind IPv6; make sure bindv6only is 0 in
     # your sysctl configuration for this binding to service IPv4 clients, too.
     # ("cat /proc/sys/net/ipv6/bindv6only" to verify.)
-    'listen-address': '::',
+    'listen-address': '',
 
     # Here is where you configure what DNS server to proxy to.  You must
     # specify exactly one of the following options; comment out the other.
